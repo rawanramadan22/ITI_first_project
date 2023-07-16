@@ -1,0 +1,113 @@
+
+.members , .membersoff  {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Oswald",sans-serif;
+}
+.team{
+    margin-left: 25px;
+}
+.members .expert  {
+    font-size: 40px;
+    font-weight: 700;
+    color: #3bcea7;
+    padding-top: 5%;
+}
+.members .expert:hover{
+    color: #f1c50e;
+}
+    .portfolio-content {
+        overflow: hidden;
+    }
+   .team-overlay{
+    width: 30%;
+        float: left;
+        position: relative;
+        margin-left: 10px;
+
+    }
+    .team-overlay img{
+        width: 100%;
+        height: 250px;
+    }
+    .team-overlay.mg {
+        margin: 0 1%;
+    }
+    .team-overlay .icons{
+        position: absolute;
+        top:0;
+        left:0;
+        bottom: 0;
+        right: 0;
+        width:100%;
+        height:100%;
+        text-align: center;
+        background-color: rgba(0,0,0,0.7);
+        opacity: 0;
+        visibility: hidden;
+        transition:opacity 1s;
+    }
+    .team-overlay:hover .icons{
+        opacity:1;
+        visibility: visible;
+    }
+    .icons .layer{
+        position: absolute;
+        left:50%;
+        top:50%;
+        width: 80%;
+       transform: translate(-50%,-50%);
+       text-align: center;
+    }
+    .icons .category {
+        font-size: 20px;
+        color: #f1c50e;
+        text-transform: uppercase;
+        display: block;
+        margin-bottom: 5px;
+        position: relative;
+        top: 15px;
+        opacity: 0;
+        visibility: hidden;
+        transition: top 1s ,opacity .5s;
+        transition-delay: 0;
+    }
+    .layer-content-title{
+        font-size: 14px;
+        color: #3bcea7 ;
+        margin-bottom: 10px;
+        position: relative;
+        top: 15px;
+        opacity: 0;
+        visibility: hidden;
+        transition: top 1s ,opacity .5s;
+        transition-delay: .4s;
+    }
+    .layer a  {
+        display: inline-block;
+        width:40px;
+        height: 40px;
+        background-color: #f1c50e;
+        position: relative;
+        top:15px;
+        color: #000;
+        opacity: 0;
+        visibility: hidden;
+        transition: top 1s ,opacity .5s;
+        transition-delay: .6s;
+    }
+    .layer a i{
+        font-size: 1.5em;
+        text-align: center;
+        position: relative;
+        top: 20%;
+        color:#3bcea7 ;
+    }
+    .team-overlay:hover .layer-content-title,
+    .team-overlay:hover .layer a,
+    .team-overlay:hover .layer .category{
+       top:0;
+       opacity: 1;
+       visibility: visible;
+    }
+    

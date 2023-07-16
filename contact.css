@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins" , sans-serif;
+  }
+  .collection{
+    background-color: #ffffff;
+    margin: 20px auto;
+    width: 90%;
+    border-radius: 6px;
+    text-transform: capitalize;
+    padding: 10px 60px 30px 40px;
+    height: 450px;
+    margin-left: 50px;
+  }
+  .container{
+    float: left;
+    width: 25%;
+    position:relative;
+    margin-left: -50px;
+    text-align: center;
+  }
+  
+  .container i{
+    font-size: 30px;
+    color:  #3bcea7;;
+    margin-bottom: 10px;
+  }
+  .container h3{
+    font-size:1.5em;
+    font-weight: 500;
+  }
+  .container p{
+    font-size: 14px;
+    color: #afafb6;
+   line-height: 2;
+  }
+  .address , .phone{
+    margin-bottom: 20px;
+  }
+  .container::after{
+    content: "";
+    position: absolute;
+    height: 75%;
+    width: 2px;
+    right: -15px;
+    top: 44%;
+    transform: translateY(-50%);
+    background: #afafb6;
+  }
+  .data{
+    position:relative;
+    width: 75%;
+    margin-left: 34%;
+  }
+  .data  h2{
+    font-size: 23px;
+    font-weight: 600;
+    color:  #3bcea7;
+  }
+  .data p{
+    font-size: 1em;
+    color: #222222;
+    line-height: 1.4;
+    text-transform: lowercase;
+  }
+  .data_send .text  input , textarea{
+  height: 54px;
+    width: 85%;
+   line-height: 2px;
+    border: none;
+    font-size: 16px;
+    background: #F0F1F8;
+    border-radius: 6px;
+    padding: 0 15px;
+    outline: none;
+    margin: 9px 0;
+  }
+  .data_send textarea{
+    min-height: 110px;
+    padding-top: 6px;
+    resize: none;
+    padding-top: 10px;
+    
+  }
+  .btn input{
+    background-color: #3bcea7;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-size: 1.5em;
+    text-transform: capitalize;
+  }
+  .btn input:hover{
+    background:  #f1c50e;
+  }

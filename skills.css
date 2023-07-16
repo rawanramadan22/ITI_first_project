@@ -1,0 +1,43 @@
+.collection{
+  width: 100%; 
+  display: flex;
+  padding-top: 10px;
+}
+.technical{
+  width: 50%; 
+  margin-left: 20px;
+}
+ h2{
+ text-transform: capitalize;
+ text-align: center;
+ font-weight: 500;
+}
+.container {
+ width: 100%;
+  background-color: #04ff43;
+}
+.skills {
+  text-align: right; 
+  padding-top: 10px; 
+  padding-bottom: 10px; 
+  color: white; 
+  margin-left: -15px;
+  font-size: 1.3em;
+}
+.words{
+margin-bottom: 20px;
+}
+p{
+  font-weight: 400;
+  font-size: 1.2em;
+}
+.html {width: 90%; background-color:#f1c50e;} 
+.css {width: 80%; background-color: #f1c50e;} 
+.js {width: 65%; background-color: #f1c50e;} 
+.php {width: 60%; background-color:#f1c50e ;} 
+/* ////////////////////////////// */
+.professioal{
+  width: 50%; 
+  float: right;
+  margin-left: 20px;
+}
